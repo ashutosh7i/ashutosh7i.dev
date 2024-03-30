@@ -1,0 +1,238 @@
+[
+    {
+        "type": "Academics👨‍🎓",
+        "title": "17th PBD & Global Investor Summit 2023",
+        "role": "Volunteering Team Lead",
+        "date": {
+            "from": "8",
+            "to": "12 Feb'23"
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnuYQPOJZ78M1ZnUnhMFFOEJTBuBSDy8h_BD2egRQ7atWAdACy9Tg5_uOLPLeWtzws5Z4&usqp=CAU",
+        "image":"https://media.licdn.com/dms/image/C4D22AQEUQeMozPWHhQ/feedshare-shrink_1280/0/1673964676018?e=1714003200&v=beta&t=bk2KApTZyB435P12snQDcmfTTJh0JCMeNa6Zdi7D234",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_17thpravasibhartiyadivas-volunteering-leadership-activity-7021116807230992384-KriF?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "SPOC", "color": "yellow"},
+            {"content": "Leadership", "color": "blue"},
+            {"content": "Plantation Drive", "color": "green"},
+            {"content": "Networking", "color": "teal"}
+        ],
+        "points": [
+            "Felicitated by C.M. Shri Shivraj S. Chouhan sir.",
+            "Coordinated with NRI and foreign delegates from 61 countries.",
+            "Coordinated with IAS Officials for orders and Lead Volunteering team."
+        ]
+    },
+    {
+        "type": "Academics👨‍🎓",
+        "title": "IOT Project Competition 2022",
+        "role": "2nd runner up",
+        "date": {
+            "from": "17 Oct",
+            "to": "22"
+        },
+        "logo": "https://media.licdn.com/dms/image/C4D0BAQHSeuxOKsGZSA/company-logo_200_200/0/1519952170271?e=2147483647&v=beta&t=8iw5F5RBoXs_F8qjW7tzXTqikDq5T1cmzHzuiQpFyMg",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_iot-event-softwaredevelopment-activity-6995742955982471168-MUJL?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "Arduino", "color": "purple"},
+            {"content": "IOT", "color": "orange"},
+            {"content": "ESP32", "color": "gray"},
+            {"content": "Telegram-API", "color": "blue"}
+        ],
+        "points": [
+            "Made a Waste Management Sensor device,Using ESP32, MQ sensors and UltraSonic sensors.",
+            "POST's data to Backend as well as Telegram BOT."
+        ]
+    },
+    {
+        "type": "Academics👨‍🎓",
+        "title": "Botathon 2022",
+        "role": "3rd runner up",
+        "date": {
+            "from": "8",
+            "to": "9 Sep'22"
+        },
+        "logo": "https://media.licdn.com/dms/image/C5622AQHcR8OBav0Oew/feedshare-shrink_800/0/1659979081861?e=2147483647&v=beta&t=zG5iGmlblnC2MZU0DuRRJFGvDGff0F0uoSRMFuvHY9M",
+        "image":"https://media.licdn.com/dms/image/C5622AQEa45ejikTqOw/feedshare-shrink_2048_1536/0/1663130614494?e=1714003200&v=beta&t=Y6iLOliiNOl6GfzoScgsmVxr--VUuTzRotEQBaYNAbs",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_uipath-aitr-csit-activity-6975675436034924544-HoGD?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "Visua_Basic", "color": "purple"},
+            {"content": "UI-path", "color": "orange"},
+            {"content": "RPA", "color": "yellow"}
+        ],
+        "points": [
+            "Botathon Organized by CSIT Dept. AITR; Made a RPA bot with Ui Path.",
+            "Among top 5 Winners."
+        ]
+    },
+    {
+        "type": "Hackathons👨‍💻",
+        "title": "WittyHacks 3.0",
+        "role": "Winner",
+        "date": {
+            "from": "7",
+            "to": "9 April'23"
+        },
+        "logo": "https://d112y698adiu2z.cloudfront.net/photos/production/challenge_thumbnails/002/397/161/datas/original.png",
+        "image": "https://wittyhacks.in/assets/img/home-bg.JPG",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_team-wittyhacks-hackathonwinners-activity-7054429430504390656-Aqk_?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "Winner", "color": "orange"},
+            {"content": "Team Lead", "color": "teal"},
+            {"content": "First Hackathon", "color": "yellow"},
+            {"content": "MERN", "color": "purple"},
+            {"content": "IOT", "color": "blue"}
+        ],
+        "points": [
+            "Won WittyHacks 3.0 organized by Datacode.in, sponsored by GitHub,DigitaOcean,Sourcebay, FifthTry, Beeceptor, PieSocket & MLH.",
+            "IOT,ML,Api."
+        ]
+    },
+    {
+        "type": "Hackathons👨‍💻",
+        "title": "Embedded CyberSecurity CTF 2022",
+        "role": "DSCI, MEITY & IITK",
+        "date": {
+            "from": "Nov'22",
+            "to": ""
+        },
+        "logo": "https://upload.wikimedia.org/wikipedia/en/thumb/6/69/IIT_Madras_Logo.svg/1200px-IIT_Madras_Logo.svg.png",
+        "image":"https://media.licdn.com/dms/image/C4D1FAQENYwPP2FRbcQ/feedshare-document-images_800/1/1669095256321?e=1712793600&v=beta&t=v6AuryGyGRXZMrvqPSUi8iKY7GCDMZKwk_sKhcP4v7Y",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_embeddedsecurityctf2022-hardwaresecurityindia-activity-7025921019294932992-HI2O?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "Team Lead", "color": "teal"},
+            {"content": "First CTF", "color": "yellow"},
+            {"content": "Kali-Linux", "color": "purple"},
+            {"content": "CyberSecurity", "color": "green"}
+        ],
+        "points": [
+            "my team 'The Terminal Stack' qualified for Semi-Finals of ES-CTF22.",
+            "stood 78th among top 500 teams from 1500 participants across India."
+        ]
+    },
+    {
+        "type": "Hackathons👨‍💻",
+        "title": "Techacks 4.0",
+        "role": "Winner",
+        "date": {
+            "from": "19",
+            "to": "21 Jan'24"
+        },
+        "logo": "https://media.licdn.com/dms/image/D4D0BAQGi5WVaPeExAw/company-logo_200_200/0/1702796986382?e=1719446400&v=beta&t=9BjniGUreJBm-PiXPl4hWVNdDmA2WEmd3Pmn_OYNSSI",
+        "image": "https://media.licdn.com/dms/image/D4D22AQEYAq2eXSNJbA/feedshare-shrink_1280/0/1707366540100?e=1714003200&v=beta&t=pklOt2drWsD4dcNzYyHStvRfGTxUuGqj6BMg5ahif_A",
+        "link":"https://www.linkedin.com/posts/ashutosh7i_techacks-hackathon-community-activity-7161214349624123393-COGg?utm_source=share&utm_medium=member_desktop",
+        "badges": [
+            {"content": "Winner", "color": "orange"},
+            {"content": "Team Lead", "color": "teal"},
+            {"content": "MERN", "color": "purple"},
+            {"content": "IOT", "color": "gray"},
+            {"content": "Azure", "color": "blue"}
+        ],
+        "points": [
+            "Won Techacks 4.0 organized by Chitkara University Chandigarh, sponsored by GitHub, MLH, Logitech, Orkes & AMD and many more.",
+            "Non-Invasive, Accessible and Affordable Health Monitoring System."
+        ]
+    },
+    {
+        "type": "Hackathons👨‍💻",
+        "title": "HackThisFall 4.0",
+        "role": "Top-10 Teams",
+        "date": {
+            "from": "9",
+            "to": "11 Feb'24"
+        },
+        "logo": "https://media-r1.scrollme.today/mi/KDExAQAAAACM/1GN287FI2q2J2oMJ4AVHoiAzJ3NRQ/F-328529.png",
+        "image": "https://d226lax1qjow5r.cloudfront.net/blog/blogposts/hack-this-fall-4-0-winner-and-participants-spotlight/geeksjs.jpg",
+        "link": "https://developer.vonage.com/en/blog/hack-this-fall-4-0-winner-and-participants-spotlight#votechain-by-geeksjs-%F0%9F%97%B3%EF%B8%8F",
+        "badges": [
+            {"content": "Team Lead", "color": "teal"},
+            {"content": "MERN", "color": "purple"},
+            {"content": "IOT", "color": "blue"},
+            {"content": "Blockchain", "color": "green"},
+            {"content": "Vonage", "color": "pink"}
+        ],
+        "points": [
+            "Among top 10 Teams at HTF 4.0 by GitHub, Devfolio, Orkes, Nurelo, MLH, Replit and many more.",
+            "VoteChain, an innovative voting system designed to modernize the democratic process using blockchain, IOT and RFID technologies. ",
+            "🌟Featured in Vonage Dev Blog, Link below👇"
+        ]
+    },
+    {
+        "type": "Hackathons👨‍💻",
+        "title": "Kriyeta 2.0",
+        "role": "Top-5 Teams",
+        "date": {
+            "from": "9",
+            "to": "11 Feb'24"
+        },
+        "logo": "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/uploadedManual-65b4e2ee3a9b5_logo.png?d=200x200",
+        "badges": [
+            {"content": "Hackathon", "color": "yellow"},
+            {"content": "MERN", "color": "purple"}
+        ],
+        "points": [
+            "4th Position at Kriyeta 2.0 organized at Acropolis Institute of Technology and Research, Indore.",
+            "Made a Full Stack Educational Institute Management System."
+        ]
+    },    {
+        "type": "Hackathons👨‍💻",
+        "title": "Hack Hive ",
+        "role": "Contributed as a volunteer",
+        "date": {
+            "from": "16",
+            "to": "17 March'24"
+        },
+        "logo": "https://www.techhunterssss.tech/images/Frame-9.png",
+        "image": "https://pbs.twimg.com/media/GI7PK_pXwAAFnX5?format=jpg&name=large",
+        "link": "https://twitter.com/divyagoyalbg/status/1769579495508611557/photo/1",
+        "badges": [
+            {"content": "Hackathon", "color": "yellow"},
+            {"content": "volunteer", "color": "green"},
+            {"content": "Community", "color": "orange"},
+            {"content": "Hackhive", "color": "purple"}
+        ],
+        "points": [
+            "Contributed to this beautiful hackathon by Techhunterssss as a volunteer turned core team.",
+            "Sponsored by GitHub, MLH, Devfolio, Orkes and many more."
+        ]
+    },
+    {
+        "type": "Internships👨‍💼",
+        "title": "Ash-Technologies",
+        "role": "Web Dev Intern",
+        "date": {
+            "from": "Mar'23",
+            "to": "Apr'23"
+        },
+        "logo": "https://github.com/Ash-Technologies.png",
+        "badges": [
+            {"content": "PHP", "color": "purple"},
+            {"content": "HTML/CSS", "color": "orange"},
+            {"content": "MySql", "color": "blue"},
+            {"content": "Linux", "color": "yellow"}
+        ],
+        "points": [
+            "Made a All links at one Page site",
+            "Full Stack LAMP website"
+        ]
+    },
+    {
+        "type": "Internships👨‍💼",
+        "title": "Acropolis Institutions",
+        "role": "Social Media Manager",
+        "date": {
+            "from": "Mar'23",
+            "to": "Apr'23"
+        },
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTH9IoH39J25B0pOQOwPViGpd4-aB7vZeRYATF_ZfwUBw&s",
+        "badges": [
+            {"content": "Canva", "color": "purple"},
+            {"content": "HTML/CSS", "color": "orange"},
+            {"content": "Linkedin", "color": "blue"},
+            {"content": "SEO", "color": "teal"}
+        ],
+        "points": [
+            "Social Media management and Optimisation",
+            "Resigned the post leaving the Handles with increased followers, posts and optimised Reach🔥."
+        ]
+    }
+]

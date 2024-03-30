@@ -1,0 +1,7 @@
+* {
+  user-select: none;
+}
+
+img {
+  pointer-events: none;
+}
