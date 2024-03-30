@@ -68,6 +68,11 @@ export default function Footer() {
                 "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/a0725d5b-0d43-4ad9-8709-4e689e5ea9c5.svg"
               }
             ></Image>
+            <Image
+              src={
+                "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/018e65ba-8390-4f2f-b504-014368cd620e.svg"
+              }
+            ></Image>
           </Box>
         </Container>
       </Box>

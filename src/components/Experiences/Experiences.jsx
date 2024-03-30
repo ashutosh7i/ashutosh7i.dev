@@ -60,27 +60,6 @@ export default function Experiences() {
       "noreferrer,noopener"
     );
   };
-  const WakatimeStats = () => {
-    window.open(
-      "https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg",
-      "_blank",
-      "noreferrer,noopener"
-    );
-  };
-  const WakatimeLanguages = () => {
-    window.open(
-      "https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg",
-      "_blank",
-      "noreferrer,noopener"
-    );
-  };
-  const OtherLinks = () => {
-    window.open(
-      "https://ashutosh7i.github.io",
-      "_blank",
-      "noreferrer,noopener"
-    );
-  };
 
   const { isOpen, onOpen, onClose } = useDisclosure();
 

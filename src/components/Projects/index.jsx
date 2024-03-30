@@ -21,7 +21,7 @@ import Seo from "../../utils/Seo";
 
 import customProjects from "../../data/projects/customProjects.json";
 
-export default function Projects({}) {
+export default function Projects() {
   const { colorMode } = useColorMode();
   return (
     <>
