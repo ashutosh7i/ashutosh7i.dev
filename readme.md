@@ -43,9 +43,10 @@ This repository contains the code for my portfolio website which showcases my sk
 >An engineer never misses an opportunity to makeshift. I have a domain, so why wouldn't I? 😂
 - on [`blog.ashutosh7i.dev`](https://blog.ashutosh7i.dev) it serves my Blog🧑🏻‍💻
 - on [`soc.ashutosh7i.dev`](https://soc.ashutosh7i.dev) it shows Student Centric Online Code Compiler(SOC)👷🏻‍♂️
-- on [`taskify.ashutosh7i.dev`](https://taskify.ashutosh7i.dev) it shows my To-Do + journaling app
+- on [`rmbg.ashutosh7i.dev`](https://rmbg.ashutosh7i.dev) it shows a image backgound removal tool✂️
+- on [`taskify.ashutosh7i.dev`](https://taskify.ashutosh7i.dev) it shows my To-Do + journaling app📃
 - on [`code.ashutosh7i.dev`](https://code.ashutosh7i.dev) it serves my CodePen clone.
-- on [`healthease.ashutosh7i.dev`](https://healthease.ashutosh7i.dev) shows healthease
+- on [`healthease.ashutosh7i.dev`](https://healthease.ashutosh7i.dev) shows healthease🩺
 - and more and more upcoming😁
 
 ## License
