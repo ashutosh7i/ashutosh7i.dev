@@ -28,7 +28,7 @@ import thingsIDo from '../../data/skils/thingsido.json';
 
 const AllTechStack = () => {
   return (
-    <Center>
+    <Center id="skills">
       <Card
         ml={{ base: '-57px', sm: '-10px', md: '50px', lg: '' }}
         mr={{ base: '-57px', sm: '-10px', md: '50px', lg: '' }}

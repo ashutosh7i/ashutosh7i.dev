@@ -222,9 +222,7 @@ export default function About() {
             >
               <button
                 className="MoreAboutButton"
-                onClick={() => {
-                  window.location.href = "#";
-                }}
+                onClick={scrollToSkills}
               ></button>
             </Box>
           </VStack>
