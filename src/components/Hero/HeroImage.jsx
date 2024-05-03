@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './a.min.css';
-import b from './assets/imggg.jpg';
+import b from './assets/image.jpg';
 import c from './1.mp3';
 
 const D = () => {
