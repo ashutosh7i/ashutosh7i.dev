@@ -1,10 +1,10 @@
-import * as React from "react";
-import { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { Link as RouterLink } from "react-router-dom";
 //additional css for fonts
 import "./assets/customFonts/font.css";
 //css for Explore button
 import "./exploreButton.css";
+import "./herocss.css";
 //text typing transition
 import TextTransition, { presets } from "react-text-transition";
 //Chakra Imports
@@ -28,7 +28,41 @@ import heroTexts from "../../data/hero/heroTexts.json"
 import Seo from "../../utils/Seo/index.jsx";
 
 import { useNavigate } from "react-router-dom"; // Add this import
+
+const FloatingText1 = ({ text }) => {
+  return (
+      <div className="floating-text1">
+          {text}
+      </div>
+  );
+};
+const FloatingText2 = ({ text }) => {
+  return (
+      <div className="floating-text2">
+          {text}
+      </div>
+  );
+};
+
+
 const Hero = () => {
+  const [showText1, setShowText1] = useState(true);
+const [showText2, setShowText2] = useState(false);
+const [showTexts, setShowTexts] = useState(true);
+
+const handleClick = () => {
+  if (showTexts) {
+  setShowText1(false);
+  setShowText2(true);
+
+  // Hide the second floating text after 3 seconds
+  setTimeout(() => {
+      setShowText2(false);
+      setShowTexts(false);
+  }, 5000);
+}
+};
+
   //typed texts
   const TEXTS = heroTexts
 
@@ -268,8 +302,10 @@ const Hero = () => {
           w={"full"}
           marginBottom={{ base: "50px", md: "200px", lg: "20px" }}
           marginTop={{ base: "-10px", lg: "" }}
+          onClick={handleClick}
         >
-          {" "}
+        {showText1 && <FloatingText1 text="click me🙋🏻‍♂️" />}
+        {showText2 && <FloatingText2 text="click Ashu😁👇" />}
           <DottedBox />
           <Box
             position={"relative"}
