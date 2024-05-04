@@ -19,7 +19,7 @@ export default function BlogCardCarousel({ color }) {
     const fetchRSSFeed = async () => {
       setIsLoading(true); // Set isLoading to true before fetching data
       try {
-        const response = await fetch('http://localhost:3000/blog-rss-xml');
+        const response = await fetch('https://ashutosh7i.dev/blog-rss-xml');
         const rssText = await response.text();
 
         const parser = new DOMParser();
