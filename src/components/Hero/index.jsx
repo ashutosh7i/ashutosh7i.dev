@@ -266,7 +266,7 @@ const handleClick = () => {
                 boxShadow="md"
                 zIndex={1}
                 as="a"
-                href="/resume"
+                href="https://drive.google.com/file/d/1bP-DjYFrhuniDKDaiCw4dxdv5PaFYgjt/view"
               >
                 Resume📜
               </Box>
@@ -286,7 +286,7 @@ const handleClick = () => {
                 boxShadow="md"
                 zIndex={1}
                 as="a"
-                href="/resume"
+                href="https://drive.google.com/file/d/1bP-DjYFrhuniDKDaiCw4dxdv5PaFYgjt/view"
               >
                 <Star />
               </Box>
