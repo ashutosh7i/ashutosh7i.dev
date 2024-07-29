@@ -1,0 +1,29 @@
+[
+    {
+        "heading": "Frontend",
+        "image": "https://cdn-icons-png.flaticon.com/512/5047/5047314.png",
+        "description": "I create functional, interactive and accessable user interfaces using performent tech ✨"
+    },
+    {
+        "heading": "Backend",
+        "image": "https://cdn-icons-png.flaticon.com/512/2620/2620971.png",
+        "description": "I excel at Backend Development, Databases, API's, MicroServices & Docker 🐳"
+    },
+    {   
+        "heading": "DevOps",
+        "image": "https://cdn-icons-png.flaticon.com/512/7067/7067842.png",
+        "description": "I love working with Linux terminals and cloud(s), i deploy using Apache, NGINX, CI/CD and Firebase"
+    },
+    {
+        "heading": "Apk Dev",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/79/Flutter_logo.svg",
+        "description": "I can creating functional mobile and cross platform applications using Flutter."
+    },
+    {
+        "heading": "IOT",
+        "image": "https://cdn-icons-png.flaticon.com/512/675/675795.png",
+        "description": "I love IOT, Electronics & the aroma of solder flux😂. In my free time, you'll find me fixing & frying gadgets."
+}
+]
+
+

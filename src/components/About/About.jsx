@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+"use client";
 import {
   chakra,
   Container,
   Text,
   useColorModeValue,
   useColorMode,
-  Image,
   Icon,
   Flex,
   Box,
@@ -14,6 +15,7 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import Seo from "../../utils/Seo";
+import Image from "next/image";
 import "./css.css";
 
 import ProfessionalPhoto from "./professional.jpg";
@@ -100,7 +102,7 @@ export default function About() {
                         width={"auto"}
                         src={ProfessionalPhoto}
                         alt={`Picture of test`}
-                        roundedTop="lg"
+                        roundedTop="100%"
                       />
 
                       <Box p="2">
@@ -242,18 +244,19 @@ export default function About() {
               Aashutosh Soni{" "}
             </Text>{" "}
             & i am an engineering student from India 🇮🇳. <br />
-            Currently in my pre-final year pursuing my Bachelor's degree in
-            Computer Science and Information Technology from Acropolis Institute
-            of Technology and Research, Indore.
+            Currently in my final year pursuing Bachelor's degree in Computer
+            Science and Information Technology from Acropolis Institute of
+            Technology and Research, Indore.
             <br />
             <br />
-            🚀 I specialize in MERN stack <b>Web development</b> and have a keen
+            🚀 I specialize in <b>Full stack Web development</b> and have a keen
             interest in{" "}
             <i>
               <u>exploring</u>
             </i>{" "}
-            new cutting-edge technologies. My enthusiasm fuels my drive to
-            transform ideas into reality and tackle challenges head-on.
+            new cutting-edge technologies like MERN stack and NextJs. My
+            enthusiasm fuels my drive to transform ideas into reality and tackle
+            challenges head-on.
             <br />
             <br />
             🌌 Beyond the tech world, I'm fascinated by Si-Fi, Space exploration
@@ -272,7 +275,7 @@ export default function About() {
                 <u>an internship</u>
               </i>
             </a>
-            , and I'm excitedly learning <b>Flutter</b>.
+            , and I'm excitedly learning <b>AI & ML</b>.
             <br />
             <br />
             <a href="/contact">

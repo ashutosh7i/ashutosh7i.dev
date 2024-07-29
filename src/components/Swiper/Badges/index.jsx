@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
@@ -16,6 +17,7 @@ import {
 } from "@chakra-ui/react";
 import badgeData from "../../../data/badges/badges.json";
 import Seo from "../../../utils/Seo";
+import Image from "next/image";
 
 export default function Badges() {
   const images = badgeData;
@@ -127,7 +129,7 @@ export default function Badges() {
                 <img
                   src={image.image}
                   alt={image.name}
-                  loading="lazy"
+                  loading="eager"
                   style={{
                     display: "block",
                     width: "100%",

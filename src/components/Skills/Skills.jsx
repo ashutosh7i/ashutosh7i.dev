@@ -1,3 +1,4 @@
+"use client";
 import {
   Stack,
   Text,
@@ -17,29 +18,29 @@ import {
   useColorModeValue,
   useColorMode,
   Center,
-} from '@chakra-ui/react';
-import { Fade } from 'react-awesome-reveal';
-import React, { useState, useEffect } from 'react';
-import {ReactTyped} from 'react-typed';
-import Seo from '../../utils/Seo';
-import TechStack from '../../data/skils/techstacks.json';
-import TagsArray from '../../data/skils/tagsarray.json';
-import thingsIDo from '../../data/skils/thingsido.json';
+} from "@chakra-ui/react";
+import { Fade } from "react-awesome-reveal";
+import React, { useState, useEffect } from "react";
+import { ReactTyped } from "react-typed";
+import Seo from "../../utils/Seo";
+import TechStack from "../../data/skils/techstacks.json";
+import TagsArray from "../../data/skils/tagsarray.json";
+import thingsIDo from "../../data/skils/thingsido.json";
 
 const AllTechStack = () => {
   return (
     <Center id="skills">
       <Card
-        ml={{ base: '-57px', sm: '-10px', md: '50px', lg: '' }}
-        mr={{ base: '-57px', sm: '-10px', md: '50px', lg: '' }}
+        ml={{ base: "-57px", sm: "-10px", md: "50px", lg: "" }}
+        mr={{ base: "-57px", sm: "-10px", md: "50px", lg: "" }}
       >
-        <Seo/>
+        <Seo />
         <Center>
           <Box
             w="100%"
             maxW="2xl" // Adjust the width here to make the box bigger
-            bg={useColorModeValue('rgb(203, 213, 224)', 'rgb(45, 55, 72)')}
-            color={useColorModeValue('black', 'white')}
+            bg={useColorModeValue("rgb(203, 213, 224)", "rgb(45, 55, 72)")}
+            color={useColorModeValue("black", "white")}
             fontFamily="consolas"
             p={4}
             rounded="md"
@@ -52,19 +53,19 @@ const AllTechStack = () => {
               </Text>
             </Center>
             <Wrap spacing={2}>
-              {TechStack.map(stack => (
+              {TechStack.map((stack) => (
                 <React.Fragment key={stack.name}>
-                  {stack.data.map(technology => (
+                  {stack.data.map((technology) => (
                     <WrapItem key={technology.name}>
                       <Image
-                      //  src={technology.import ? require(`${technology.image}`).default : technology.image}
-                      src={technology.image}
+                        //  src={technology.import ? require(`${technology.image}`).default : technology.image}
+                        src={technology.image}
                         alt={technology.name}
                         boxSize={{
-                          base: '35px',
-                          sm: '54px',
-                          md: '66px',
-                          lg: '66px',
+                          base: "35px",
+                          sm: "54px",
+                          md: "66px",
+                          lg: "66px",
                         }}
                         m={1}
                       />
@@ -83,38 +84,38 @@ const AllTechStack = () => {
 const TechCard = ({ heading, description, icon, href }) => {
   return (
     <Box
-      maxW={{ base: 'full', md: '275px' }}
-      w={'full'}
+      maxW={{ base: "full", md: "275px" }}
+      w={"full"}
       borderWidth="1px"
       borderRadius="lg"
       overflow="hidden"
       backgroundColor={useColorModeValue(
-        'rgb(247, 250, 252)',
-        'rgb(45, 55, 72)'
+        "rgb(247, 250, 252)",
+        "rgb(45, 55, 72)"
       )}
       p={5}
     >
-      <Stack align={'center'} spacing={2}>
+      <Stack align={"center"} spacing={2}>
         <Flex
           w={16}
           h={16}
-          align={'center'}
-          justify={'center'}
-          color={'white'}
+          align={"center"}
+          justify={"center"}
+          color={"white"}
           // rounded={'full'}
-          bg={useColorModeValue('gray.100', 'gray.700')}
+          bg={useColorModeValue("gray.100", "gray.700")}
         >
           {icon}
         </Flex>
         <Box mt={2}>
-          <Heading textAlign={'center'} size="md">
+          <Heading textAlign={"center"} size="md">
             {heading}
           </Heading>
           <Text
-            color={useColorModeValue('rgb(62, 79, 89)', 'rgb(179, 186, 194)')}
-            textAlign={'center'}
+            color={useColorModeValue("rgb(62, 79, 89)", "rgb(179, 186, 194)")}
+            textAlign={"center"}
             mt={1}
-            fontSize={'sm'}
+            fontSize={"sm"}
           >
             {description}
           </Text>
@@ -155,7 +156,7 @@ const Skills = () => {
             />
           }
           description={item.description}
-          href={'#'}
+          href={"#"}
         />
       ))}
       {showMore ? (
@@ -171,15 +172,15 @@ const Skills = () => {
               />
             }
             description={item.description}
-            href={'#'}
+            href={"#"}
           />
         ))
       ) : (
         <Button
           onClick={onToggle}
-          variant={'outline'}
-          colorScheme={'blue'}
-          size={'sm'}
+          variant={"outline"}
+          colorScheme={"blue"}
+          size={"sm"}
           mt={4}
         >
           Show More
@@ -194,30 +195,30 @@ export default function TechStackComponent({ color }) {
   const options = TagsArray;
   const { colorMode } = useColorMode();
 
-  const [selected, setSelected] = useState('All');
+  const [selected, setSelected] = useState("All");
 
-  const handleSelected = value => {
+  const handleSelected = (value) => {
     setSelected(value);
   };
 
   return (
     <>
-    <Seo/>
-      <Container maxW={'4xl'} id="skills">
+      <Seo />
+      <Container maxW={"4xl"} id="skills">
         <Stack
           as={Box}
-          textAlign={'center'}
+          textAlign={"center"}
           spacing={{ base: 8, md: 14 }}
           pb={{ base: 0, md: 0 }}
         >
           <Heading
-            mt={'10%'}
-            mb={'-6%'}
-            fontSize={'4xl'}
-            color={useColorModeValue('rgb(45, 55, 72)', 'white')}
+            mt={"10%"}
+            mb={"-6%"}
+            fontSize={"4xl"}
+            color={useColorModeValue("rgb(45, 55, 72)", "white")}
           >
-            My{' '}
-            {colorMode === 'light' ? (
+            My{" "}
+            {colorMode === "light" ? (
               <Text as="span" color="rgb(7, 190, 184)">
                 Skillset
               </Text>
@@ -233,14 +234,14 @@ export default function TechStackComponent({ color }) {
           </Heading>
 
           <Flex
-            mt={{ base: '-2%', sm: '2%', md: '1%', lg: '0.5%' }}
+            mt={{ base: "-2%", sm: "2%", md: "1%", lg: "0.5%" }}
             alignItems="center"
             justifyContent="center"
           >
             <Box
               w="50%"
               h="1px"
-              bg={useColorModeValue('rgb(26, 32, 44)', 'rgb(233, 237, 242)')}
+              bg={useColorModeValue("rgb(26, 32, 44)", "rgb(233, 237, 242)")}
             />
             <Text mx="1rem" whiteSpace="nowrap">
               Things i Use!
@@ -248,7 +249,7 @@ export default function TechStackComponent({ color }) {
             <Box
               w="50%"
               h="px"
-              bg={useColorModeValue('rgb(26, 32, 44)', 'rgb(233, 237, 242)')}
+              bg={useColorModeValue("rgb(26, 32, 44)", "rgb(233, 237, 242)")}
             />
           </Flex>
 
@@ -256,22 +257,20 @@ export default function TechStackComponent({ color }) {
             <Wrap spacing={2}>
               <WrapItem>
                 <Button
-                  colorScheme={selected === 'All' ? `blue` : 'gray'}
+                  colorScheme={selected === "All" ? `blue` : "gray"}
                   backgroundColor={
-                    selected === 'All' ? 'rgb(20, 147, 233)' : ''
+                    selected === "All" ? "rgb(20, 147, 233)" : ""
                   }
-                  textColor={selected === 'All' ? 'white' : ''}
-                  onClick={() => handleSelected('All')}
+                  textColor={selected === "All" ? "white" : ""}
+                  onClick={() => handleSelected("All")}
                 >
                   📲All🎒
                 </Button>
               </WrapItem>
-              {options.map(option => (
+              {options.map((option) => (
                 <WrapItem key={option.value}>
                   <Button
-                    colorScheme={
-                      selected === option.value ? 'cyan' : 'gray'
-                    }
+                    colorScheme={selected === option.value ? "cyan" : "gray"}
                     onClick={() => handleSelected(option.value)}
                   >
                     {option.value}
@@ -282,20 +281,20 @@ export default function TechStackComponent({ color }) {
           </Center>
 
           <SimpleGrid px={20} spacing={4}>
-            {techStack.map(stack => (
+            {techStack.map((stack) => (
               <Fade bottom key={stack.name}>
                 this text should stay here
-                {(selected === stack.name || selected === 'All') &&
-                  selected !== 'All' && (
+                {(selected === stack.name || selected === "All") &&
+                  selected !== "All" && (
                     <Card
-                      ml={{ base: '-30px', sm: '20px', md: '50px', lg: '70px' }}
-                      mr={{ base: '-30px', sm: '20px', md: '50px', lg: '70px' }}
+                      ml={{ base: "-30px", sm: "20px", md: "50px", lg: "70px" }}
+                      mr={{ base: "-30px", sm: "20px", md: "50px", lg: "70px" }}
                     >
                       <Stack>
                         <CardBody
-                          w={{ base: '', lg: '' }}
+                          w={{ base: "", lg: "" }}
                           align="center"
-                          h={[null, '40vh']}
+                          h={[null, "40vh"]}
                           // maxW="2xl"
                           fontWeight="bold"
                         >
@@ -303,8 +302,8 @@ export default function TechStackComponent({ color }) {
                             <Text fontSize="xl" fontWeight="bold" mb={2}>
                               {stack.name}
                             </Text>
-                            {stack.data.map(technology => (
-                              <Center>
+                            {stack.data.map((technology) => (
+                              <Center key={technology.name}>
                                 <Box
                                   key={technology.name}
                                   display="flex"
@@ -334,7 +333,7 @@ export default function TechStackComponent({ color }) {
                           </Box>
                           <Center>
                             <HStack flexWrap="wrap" pt={0} spacing={2}>
-                              {stack.badges.map(badge => (
+                              {stack.badges.map((badge) => (
                                 <Badge
                                   my={2}
                                   key={badge.text}
@@ -351,18 +350,18 @@ export default function TechStackComponent({ color }) {
                   )}
               </Fade>
             ))}
-            {selected === 'All' && <AllTechStack />}
+            {selected === "All" && <AllTechStack />}
           </SimpleGrid>
 
           <Flex
-            mt={{ base: '-2%', sm: '2%', md: '1%', lg: '0.5%' }}
+            mt={{ base: "-2%", sm: "2%", md: "1%", lg: "0.5%" }}
             alignItems="center"
             justifyContent="center"
           >
             <Box
               w="50%"
               h="1px"
-              bg={useColorModeValue('rgb(26, 32, 44)', 'rgb(233, 237, 242)')}
+              bg={useColorModeValue("rgb(26, 32, 44)", "rgb(233, 237, 242)")}
             />
             <Text mx="1rem" whiteSpace="nowrap">
               Things i Do!
@@ -370,11 +369,10 @@ export default function TechStackComponent({ color }) {
             <Box
               w="50%"
               h="1px"
-              bg={useColorModeValue('rgb(26, 32, 44)', 'rgb(233, 237, 242)')}
+              bg={useColorModeValue("rgb(26, 32, 44)", "rgb(233, 237, 242)")}
             />
           </Flex>
-          <Skills/>
-    
+          <Skills />
         </Stack>
       </Container>
     </>

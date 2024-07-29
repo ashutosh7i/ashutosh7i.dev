@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+"use client";
 import React, { useState, useEffect } from "react";
 import { animated, useSpring } from "react-spring";
 import { useScroll } from "react-use-gesture";

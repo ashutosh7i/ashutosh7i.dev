@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Container, Stack, Box } from "@chakra-ui/react";
@@ -6,6 +7,7 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import { EffectCoverflow, Autoplay, Pagination } from "swiper/modules";
 import Seo from "../../../utils/Seo";
+import Image from "next/image";
 
 // Create a context for the certs folder
 const certsContext = require.context(
@@ -16,6 +18,7 @@ const certsContext = require.context(
 export default function Certificates() {
   // Get all images from the certs folder
   const images = certsContext.keys().map(certsContext);
+  console.log(images);
 
   return (
     <>
@@ -75,10 +78,10 @@ export default function Certificates() {
                     height: "230px",
                   }}
                 >
-                  <img
+                  <Image
                     alt={image}
                     src={image}
-                    loading="lazy"
+                    loading="eager"
                     style={{
                       display: "block",
                       width: "100%",

@@ -1,3 +1,6 @@
+/* eslint-disable react/no-unescaped-entities */
+"use client";
+
 import React from "react";
 import {
   Stack,
@@ -13,7 +16,7 @@ import {
   Textarea,
   Center,
   Modal,
-Link,
+  Link,
   ModalOverlay,
   ModalContent,
   ModalHeader,
@@ -34,7 +37,7 @@ import { useState } from "react"; // Import useState
 
 import Testimonials from "../Testimonials";
 
-import Work from "./work.png";
+import Work from "@/../public/images/work.png";
 
 export default function Experiences() {
   const borderColor = useColorModeValue("gray.300", "transparent");
@@ -128,44 +131,51 @@ export default function Experiences() {
           </Flex>
         </Stack>
         <Stack
-  justifyContent={"center"}
-  direction={{ base: "column", md: "row" }}
-  alignItems={"center"}
-  pt={"40px"}
->
-  <Link href="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg" isExternal>
-    <Image
-      height={"200px"}
-      width={"auto"}
-      objectFit="contain"
-      src="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg"
-      border="1px"
-      borderColor={borderColor}
-    />
-  </Link>
+          justifyContent={"center"}
+          direction={{ base: "column", md: "row" }}
+          alignItems={"center"}
+          pt={"40px"}
+        >
+          <Link
+            href="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg"
+            isExternal
+          >
+            <Image
+              height={"200px"}
+              width={"auto"}
+              objectFit="contain"
+              src="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg"
+              border="1px"
+              borderColor={borderColor}
+              alt=""
+            />
+          </Link>
 
+          <Image
+            height={"200px"}
+            width={"auto"}
+            objectFit="contain"
+            src={'/images/work.png'}
+            border="2px"
+            borderColor={borderColor}
+            alt=""
+          />
 
-    <Image
-      height={"200px"}
-      width={"auto"}
-      objectFit="contain"
-      src={Work}
-      border="2px"
-      borderColor={borderColor}
-    />
-
-
-  <Link href="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg" isExternal>
-    <Image
-      height={"200px"}
-      width={"auto"}
-      objectFit="contain"
-      src="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg"
-      border="1px"
-      borderColor={borderColor}
-    />
-  </Link>
-</Stack>
+          <Link
+            href="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg"
+            isExternal
+          >
+            <Image
+              height={"200px"}
+              width={"auto"}
+              objectFit="contain"
+              src="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg"
+              border="1px"
+              borderColor={borderColor}
+              alt=""
+            />
+          </Link>
+        </Stack>
         <Container alignItems={"center"} maxW={"3xl"} pt={"40px"} pb={"20px"}>
           <Box>
             <Text textAlign={"center"} fontSize={"md"}>
@@ -219,7 +229,7 @@ export default function Experiences() {
                     onClick={email}
                     align={"center"}
                   >
-                    {"work@ashutosh.dev"}{" "}
+                    {"work@ashutosh7i.dev"}{" "}
                   </Text>
                   <ModalCloseButton />
 

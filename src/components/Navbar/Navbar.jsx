@@ -1,3 +1,4 @@
+"use client";
 import {
   Flex,
   Button,
@@ -18,16 +19,18 @@ import {
 import Seo from "../../utils/Seo";
 import { HamburgerIcon } from "@chakra-ui/icons";
 import { useState } from "react";
+import useSound from "use-sound";
 
-import sound from "./2.mp3";
+// import sound from "./2.mp3";
 import "./colorChangingButton.css";
 
-export default function Nav({ color }) {
+export default function Nav() {
   const [scroll, setScroll] = useState(false);
   const { colorMode, toggleColorMode } = useColorMode();
   const { isOpen, onOpen, onClose } = useDisclosure();
 
   const [isLargerThanMD] = useMediaQuery("(min-width: 48em)");
+  const [play] = useSound("/sounds/toggle.mp3");
 
   // const scrollToHero = () => {
   //   const heroSection = document.querySelector("#Hero");
@@ -62,7 +65,8 @@ export default function Nav({ color }) {
   window.addEventListener("scroll", changeScroll);
 
   function toggleWithSound() {
-    new Audio(sound).play();
+    // new Audio(sound).play();
+    play();
     toggleColorMode();
   }
 

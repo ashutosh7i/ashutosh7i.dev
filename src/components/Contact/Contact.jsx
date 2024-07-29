@@ -1,10 +1,11 @@
+/* eslint-disable react/no-unescaped-entities */
+"use client";
 import {
   Stack,
   Text,
   Container,
   Button,
   Box,
-  Image,
   Input,
   HStack,
   Heading,
@@ -23,6 +24,7 @@ import {
   useColorModeValue,
   useDisclosure,
 } from "@chakra-ui/react";
+import Image from "next/image";
 import {
   FaLinkedin,
   FaGithub,
@@ -70,7 +72,7 @@ export default function Contact({ color }) {
   };
   const email = () => {
     window.open(
-      "mailto:i@ashutosh7i.dev?subject=[SUBJECT]Hi Ashutosh👋🏻, This is regarding.. &body=[BODY] That we approve you as spiderMan",
+      "mailto:work@ashutosh7i.dev?subject=[SUBJECT]Hi Ashutosh👋🏻, This is regarding.. &body=[BODY] That we approve you as spiderMan",
       "_blank",
       "noreferrer,noopener"
     );
@@ -174,7 +176,9 @@ export default function Contact({ color }) {
           >
             <Heading fontSize={"3xl"}>Let's stay in touch!</Heading>
             <Box align="center">
-              <Image maxWidth="50%" src={myGif} alt="Rocket-Gif"></Image>
+              <Box maxWidth="50%">
+                <Image src={myGif} alt="Rocket-Gif"></Image>
+              </Box>
             </Box>
 
             <Text color={"gray.600"} fontSize={"xl"} px={4}>
@@ -202,7 +206,7 @@ export default function Contact({ color }) {
                       onClick={email}
                       align={"center"}
                     >
-                      {"i@ashutosh.dev"}{" "}
+                      {"work@ashutosh7i.dev"}{" "}
                     </Text>
                     <ModalCloseButton />
 

@@ -1,14 +1,15 @@
+"use client";
 import { useState, useEffect } from "react";
 import parser from "./parser.js";
 import {
   Box,
   Center,
-  Image,
   Text,
   Stack,
   Badge,
   List,
   ListItem,
+  Image,
   AspectRatio,
   useColorModeValue,
   Button,
@@ -22,7 +23,7 @@ import {
 } from "@chakra-ui/react";
 
 const username = "ashutosh7i";
-const token = process.env.REACT_APP_TOKEN;
+const token = process.env.NEXT_PUBLIC_SECRET_KEY_TOKEN;
 
 function GitProjector() {
   const [projects, setProjects] = useState([]);

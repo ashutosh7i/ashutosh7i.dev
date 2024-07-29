@@ -1,3 +1,4 @@
+"use client";
 import {
   Stack,
   Text,
@@ -104,7 +105,7 @@ export default function Projects() {
                   }}
                   overflow="hidden"
                 >
-                  <Image objectFit="cover" src={project.image} />
+                  <Image objectFit="cover" src={project.image} alt="" />
 
                   <Stack>
                     <CardBody align="left">

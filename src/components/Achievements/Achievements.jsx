@@ -1,3 +1,4 @@
+"use client";
 import {
   Stack,
   Text,
@@ -7,18 +8,20 @@ import {
   Card,
   CardHeader,
   CardBody,
-  CardFooter, Flex,
+  CardFooter,
+  Flex,
   Badge,
   Image,
   List,
   ListItem,
   ListIcon,
-  Button, Center,
+  Button,
+  Center,
   Heading,
   useColorMode,
   useColorModeValue,
   Wrap,
-  WrapItem
+  WrapItem,
 } from "@chakra-ui/react";
 import { ChevronRightIcon } from "@chakra-ui/icons";
 import { Fade } from "react-awesome-reveal";
@@ -29,7 +32,7 @@ import { MdArrowOutward } from "react-icons/md";
 // Replace 'achievements' with the provided JSON data
 import achievements from "../../data/achievements/achievements.json";
 
-export default function Achievements({}) {
+export default function Achievements() {
   const color = "teal";
   const [selected, setSelected] = useState("");
 
@@ -150,10 +153,16 @@ export default function Achievements({}) {
                         objectFit="fit"
                         height="auto"
                         src={achievement.image}
+                        alt="achievement image"
                       />
                       <Flex justifyContent="space-between">
                         <HStack>
-                          <Image loading="lazy" src={achievement.logo} h={50} />
+                          <Image
+                            loading="eager"
+                            src={achievement.logo}
+                            h={50}
+                            alt="achievement logo"
+                          />
                           <Box px={2} align="left">
                             <Text fontWeight={600}>{achievement.title}</Text>
                             <Text>{achievement.role}</Text>
