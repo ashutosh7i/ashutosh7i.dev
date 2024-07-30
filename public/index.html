@@ -102,17 +102,24 @@
       }
     </style>
   </head>
-  
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J41QQ87XJG"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-J41QQ87XJG');
-</script>
-  
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-J41QQ87XJG"
+  ></script>
+  <script>
+    if (typeof window !== "undefined") {
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-J41QQ87XJG");
+    }
+  </script>
+
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root">

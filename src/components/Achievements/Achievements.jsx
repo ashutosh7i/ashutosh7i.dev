@@ -212,9 +212,11 @@ export default function Achievements() {
 
                       {achievement.link ? (
                         <Box
-                          onClick={() =>
-                            window.open(achievement.link, "_blank")
-                          }
+                          onClick={() => {
+                            if (typeof window !== "undefined") {
+                              window.open(achievement.link, "_blank");
+                            }
+                          }}
                           colorScheme="link"
                           variant="outline"
                         >

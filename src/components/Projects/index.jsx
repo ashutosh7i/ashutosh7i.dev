@@ -137,19 +137,24 @@ export default function Projects() {
               </Fade>
             ))}
           </Stack>
-          <Text  mx="1rem" px={4}>
-            More Projects 
-            <br/>
-            
-            <Button   colorScheme={`teal`} onClick={() => window.location.href="/projects"}>
-  Here👉
-</Button><br/>
-(PS: i made a special component for this page! 😄)
-            <br/>
+          <Text mx="1rem" px={4}>
+            More Projects
+            <br />
+            <Button
+              colorScheme={`teal`}
+              onClick={() => {
+                if (typeof window !== "undefined") {
+                  window.location.href = "/projects";
+                }
+              }}
+            >
+              Here👉
+            </Button>
+            <br />
+            (PS: i made a special component for this page! 😄)
+            <br />
             {"{projects come directly from my Github, check it out!}"}
-            
-            </Text>
-          
+          </Text>
         </Stack>
       </Container>
     </>

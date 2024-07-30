@@ -96,12 +96,23 @@ function TestimonialAvatar(props) {
         bg={randomColor}
         p={"1"}
         rounded={"40px"}
-        onClick={() => window.open(link, "_blank")}
+        onClick={() => {
+          if (typeof window !== "undefined") {
+            window.open(link, "_blank");
+          }
+        }}
       >
         <Avatar borderColor={"rgb(238, 118, 116)"} size={"lg"} src={src} />
       </Box>
       <Stack spacing={-1} align={"center"}>
-        <Text fontWeight={700} onClick={() => window.open(link, "_blank")}>
+        <Text
+          fontWeight={700}
+          onClick={() => {
+            if (typeof window !== "undefined") {
+              window.open(link, "_blank");
+            }
+          }}
+        >
           {name}
         </Text>
         <Text
@@ -176,8 +187,10 @@ const TestimonialComponent = () => {
     const mailtoLink = `mailto:I@ashutosh7i.dev?subject=New Testimonial Request&body=Testimonial: ${newTestimonial.content}%0A%0AImageLink: ${newTestimonial.avatarSrc}%0AName: ${newTestimonial.name}%0ADesn: ${newTestimonial.title}`;
 
     // Open the user's default email client
-    window.location.href = mailtoLink;
-
+    if (typeof window !== "undefined") {
+      window.location.href = mailtoLink;
+    }
+    
     alert(
       "Thank you for your Testimonial✅, it will be added on next Build.😄"
     );
@@ -187,7 +200,7 @@ const TestimonialComponent = () => {
 
   return (
     <>
-    <Seo/>
+      <Seo />
       <Text
         textAlign={"center"}
         fontFamily={"serif"}

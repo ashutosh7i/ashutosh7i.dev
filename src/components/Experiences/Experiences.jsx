@@ -43,25 +43,31 @@ export default function Experiences() {
   const borderColor = useColorModeValue("gray.300", "transparent");
 
   const linkedin = () => {
-    window.open(
-      "https://linkedin.com/in/ashutosh7i",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    if (typeof window !== "undefined") {
+      window.open(
+        "https://linkedin.com/in/ashutosh7i",
+        "_blank",
+        "noreferrer,noopener"
+      );
+    }
   };
   const github = () => {
-    window.open(
-      "https://github.com/ashutosh7i",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    if (typeof window !== "undefined") {
+      window.open(
+        "https://github.com/ashutosh7i",
+        "_blank",
+        "noreferrer,noopener"
+      );
+    }
   };
   const email = () => {
-    window.open(
-      "mailto:i@ashutosh7i.dev?subject=[SUBJECT]Hi Ashutosh👋🏻, This is regarding.. &body=[BODY] That we approve you as spiderMan",
-      "_blank",
-      "noreferrer,noopener"
-    );
+    if (typeof window !== "undefined") {
+      window.open(
+        "mailto:i@ashutosh7i.dev?subject=[SUBJECT]Hi Ashutosh👋🏻, This is regarding.. &body=[BODY] That we approve you as spiderMan",
+        "_blank",
+        "noreferrer,noopener"
+      );
+    }
   };
 
   const { isOpen, onOpen, onClose } = useDisclosure();
@@ -73,7 +79,9 @@ export default function Experiences() {
     const encodedSubject = encodeURIComponent(subject);
     const encodedBody = encodeURIComponent(body);
     const emailLink = `mailto:work@ashutosh7i.dev?subject=${encodedSubject}&body=${encodedBody}`;
-    window.location.href = emailLink;
+    if (typeof window !== "undefined") {
+      window.location.href = emailLink;
+    }
   };
 
   const { colorMode } = useColorMode();
@@ -155,7 +163,7 @@ export default function Experiences() {
             height={"200px"}
             width={"auto"}
             objectFit="contain"
-            src={'/images/work.png'}
+            src={"/images/work.png"}
             border="2px"
             borderColor={borderColor}
             alt=""

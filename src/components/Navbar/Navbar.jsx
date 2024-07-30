@@ -62,7 +62,9 @@ export default function Nav() {
       ? setScroll(true)
       : setScroll(false);
 
-  window.addEventListener("scroll", changeScroll);
+  if (typeof window !== "undefined") {
+    window.addEventListener("scroll", changeScroll);
+  }
 
   function toggleWithSound() {
     // new Audio(sound).play();
