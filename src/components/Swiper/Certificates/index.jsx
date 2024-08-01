@@ -18,8 +18,6 @@ const certsContext = require.context(
 export default function Certificates() {
   // Get all images from the certs folder
   const images = certsContext.keys().map(certsContext);
-  console.log(images);
-
   return (
     <>
       <Seo />

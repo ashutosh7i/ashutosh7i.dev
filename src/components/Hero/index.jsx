@@ -212,7 +212,6 @@ const Hero = () => {
                   className="button"
                   onClick={() => {
                     let dest = document.getElementById("About");
-                    console.log(dest);
                     dest.scrollIntoView({ behavior: "smooth" });
                   }}
                 >

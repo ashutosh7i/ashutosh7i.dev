@@ -35,7 +35,7 @@ import {
 import Seo from "../../utils/Seo";
 
 import { useState } from "react"; // Import useState
-import BlogSlider from "../../utils/BlogSlider";
+import BlogSlider from "@/components/BlogSlider/BlogSlider";
 import myGif from "./giphy.gif";
 
 export default function Contact({ color }) {

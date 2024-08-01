@@ -5,34 +5,85 @@
     "image": "https://repository-images.githubusercontent.com/755289465/a69e77a8-5a25-47a2-aaa2-7fd6494ed45a",
     "tags": ["Category 1"],
     "badges": [
-      {"name": "Winning Project", "color": "yellow"},
-      {"name": "HackThisFall 4.0", "color": "orange"},
-      {"name": "Blockchain", "color": "green"},
-      {"name": "IOT", "color": "gray"},
-      {"name": "Hackathon", "color": "blue"}
+      { "name": "Winning Project", "color": "yellow" },
+      { "name": "HackThisFall 4.0", "color": "orange" },
+      { "name": "Blockchain", "color": "green" },
+      { "name": "IOT", "color": "gray" },
+      { "name": "Hackathon", "color": "blue" }
     ],
     "buttons": [
-      {"name": "Devfolio", "url": "https://devfolio.co/projects/votechain-a08c"},
-      {"name": "Github", "url": "https://github.com/ashutosh7i/VoteChain"}
+      {
+        "name": "Devfolio",
+        "url": "https://devfolio.co/projects/votechain-a08c"
+      },
+      { "name": "Github", "url": "https://github.com/ashutosh7i/VoteChain" }
     ]
   },
-
+  {
+    "name": "LumosCareer.co",
+    "description": "Transfigure Yourself Into An Outstanding Candidate🌟 LumosCareer offers a comprehensive suite of AI enabled tools to streamline your job and internship applications.",
+    "image": "/images/lumos.gif",
+    "tags": ["Category 1"],
+    "badges": [
+      { "name": "Winning Project", "color": "yellow" },
+      { "name": "Peerlist AI Hackathon", "color": "green" },
+      { "name": "NextJs", "color": "gray" },
+      { "name": "AI", "color": "teal" },
+      { "name": "Hackathon", "color": "blue" }
+    ],
+    "buttons": [
+      {
+        "name": "lumoscareer.co",
+        "url": "https://lumoscareer.co"
+      },
+      {
+        "name": "Peerlist",
+        "url": "https://peerlist.io/vinayakgavariya/project/lumoscareer"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/ashutosh7i/LumosCareer.co?tab=readme-ov-file"
+      }
+    ]
+  },
   {
     "name": "Healthease",
     "description": "Health matrices made simple and accessible. ✨",
     "image": "https://repository-images.githubusercontent.com/748670439/acd1e764-dc4b-4a5a-8615-b4defa8547da",
     "tags": ["Category 1"],
     "badges": [
-      {"name": "Winning Project", "color": "yellow"},
-      {"name": "Techacks 4.0", "color": "purple"},
-      {"name": "Hackathon", "color": "blue"},
-      {"name": "Flutter", "color": "teal"},
-      {"name": "IOT", "color": "gray"}
+      { "name": "Winning Project", "color": "yellow" },
+      { "name": "Techacks 4.0", "color": "purple" },
+      { "name": "Hackathon", "color": "blue" },
+      { "name": "Flutter", "color": "teal" },
+      { "name": "IOT", "color": "gray" }
     ],
     "buttons": [
-      {"name": "Devfolio", "url": "https://devfolio.co/projects/healthease-01d9"},
-      {"name": "Github", "url": "https://github.com/ashutosh7i/HealthEase"},
-      {"name": "Healthease", "url": "https://healthease.ashutosh7i.dev/"}
+      {
+        "name": "Devfolio",
+        "url": "https://devfolio.co/projects/healthease-01d9"
+      },
+      { "name": "Github", "url": "https://github.com/ashutosh7i/HealthEase" },
+      { "name": "Healthease", "url": "https://healthease.ashutosh7i.dev/" }
+    ]
+  },
+  {
+    "name": "FarmIQ",
+    "description": "FarmIQ is an innovative app designed to maximize your agricultural yield. By simply entering parameters about your farm land our intelligent system recommends the most suitable crops to plant🌾",
+    "image": "https://repository-images.githubusercontent.com/792927403/0599528d-fbe9-472a-acdf-b6d759f31202",
+    "tags": ["Category 1"],
+    "badges": [
+      { "name": "Winning Project", "color": "yellow" },
+      { "name": "JugaadHacks 2024", "color": "green" },
+      { "name": "Hackathon", "color": "blue" },
+      { "name": "AI", "color": "gray" }
+    ],
+    "buttons": [
+      {
+        "name": "FarmIQ",
+        "url": "https://www.farmiq.co/"
+      },
+      { "name": "Github", "url": "https://github.com/ashutosh7i/farmiq" }
     ]
   },
   {
@@ -41,34 +92,22 @@
     "image": "https://repository-images.githubusercontent.com/691234963/3dbe5728-ee67-4f26-b174-d1e37ea53660",
     "tags": ["Category 1"],
     "badges": [
-      {"name": "Minor Project", "color": "orange"},
-      {"name": "Docker", "color": "blue"},
-      {"name": "Full-Stack", "color": "red"},
-      {"name": "Azure", "color": "teal"},
-      {"name": "Auth0", "color": "gray"}
+      { "name": "Minor Project", "color": "orange" },
+      { "name": "Docker", "color": "blue" },
+      { "name": "Full-Stack", "color": "red" },
+      { "name": "Azure", "color": "teal" },
+      { "name": "Auth0", "color": "gray" }
     ],
     "buttons": [
-      {"name": "Devfolio", "url": "https://devfolio.co/projects/studentcentriconlinecodecompiler-9862"},
-      {"name": "Github", "url": "https://github.com/ashutosh7i/Student-Centric_Online_Code_Compiler"},
-      {"name": "soc.dev", "url": "https://soc.ashutosh7i.dev/"}
+      {
+        "name": "Devfolio",
+        "url": "https://devfolio.co/projects/studentcentriconlinecodecompiler-9862"
+      },
+      {
+        "name": "Github",
+        "url": "https://github.com/ashutosh7i/Student-Centric_Online_Code_Compiler"
+      },
+      { "name": "soc.dev", "url": "https://soc.ashutosh7i.dev/" }
     ]
-  },
-
-    {
-      "name": "Decentralized-Identity-Platform",
-      "description": "🔒 Decentralized Identity Platform (DIP) is a secure and user-friendly web app that allows users to store and access personal documents on the decentralized web using IPFS, Filecoin, and Web3Storage. 🚀 💻",
-      "image": "https://repository-images.githubusercontent.com/609189450/40a5c041-682e-4cc6-a5a5-4be8df38c0c2",
-      "tags": ["Category 3"],
-      "badges": [
-        {"name": "IPFS", "color": "teal"},
-        {"name": "Filecoin", "color": "blue"},
-        {"name": "cryptojs", "color": "yellow"},
-        {"name": "NodeJs", "color": "green"}
-      ],
-      "buttons": [
-        {"name": "Devfolio", "url": "https://devfolio.co/projects/decentralized-identity-platform-dip-7f94"},
-        {"name": "Github", "url": "https://example.com"},
-        {"name": "replit", "url": "https://replit.com/@Ashutosh7i/Decentralized-Identity-Platform"}
-      ]
-    }
-  ]
+  }
+]

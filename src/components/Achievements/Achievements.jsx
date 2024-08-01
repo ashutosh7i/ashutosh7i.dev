@@ -148,13 +148,15 @@ export default function Achievements() {
                 <Fade key={achievement} headshake>
                   <Card key={achievement.title} size="sm">
                     <CardHeader>
-                      <Image
-                        mb={3}
-                        objectFit="fit"
-                        height="auto"
-                        src={achievement.image}
-                        alt="achievement image"
-                      />
+                      {achievement.image && (
+                        <Image
+                          mb={3}
+                          objectFit="fit"
+                          height="auto"
+                          src={achievement.image}
+                          alt="achievement image"
+                        />
+                      )}
                       <Flex justifyContent="space-between">
                         <HStack>
                           <Image
