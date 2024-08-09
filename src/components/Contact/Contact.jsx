@@ -255,10 +255,19 @@ export default function Contact({ color }) {
                     </ModalBody>
 
                     <ModalFooter>
-                      <Button colorScheme="red" mr={3} onClick={onClose}>
+                      <Button
+                        colorScheme="red"
+                        mr={3}
+                        aria-label="close modal"
+                        onClick={onClose}
+                      >
                         Close
                       </Button>
-                      <Button colorScheme={`teal`} onClick={sendEmail}>
+                      <Button
+                        aria-label="send email"
+                        colorScheme={`teal`}
+                        onClick={sendEmail}
+                      >
                         Send
                       </Button>
                     </ModalFooter>
@@ -268,6 +277,7 @@ export default function Contact({ color }) {
             </Center>
             <Text color={`teal.500`} fontWeight={600} fontSize={"lg"} px={4}>
               <Button
+                aria-label="other links"
                 rounded={"full"}
                 variant="outline"
                 colorScheme={"pink"}
@@ -280,6 +290,7 @@ export default function Contact({ color }) {
 
             <Text color={`teal.500`} fontWeight={600} fontSize={"lg"} px={4}>
               <Button
+                aria-label="my blog"
                 rounded={"full"}
                 variant="outline"
                 colorScheme={"blue "}

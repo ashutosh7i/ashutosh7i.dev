@@ -14,18 +14,18 @@ import Contact from "@/components/Contact/Contact.jsx";
 import Footer from "@/components/Footer/Footer";
 
 //importing Pages
-import AboutPage from "@/app/about/page";
-import AchievementsPage from "@/app/achievements/page";
-import ProjectsPagePage from "@/app/projects/page";
-import ContactPage from "@/app/contact/page";
+// import AboutPage from "@/app/about/page";
+// import AchievementsPage from "@/app/achievements/page";
+// import ProjectsPagePage from "@/app/projects/page";
+// import ContactPage from "@/app/contact/page";
 
 //importing seo
-import Seo from "@/utils/Seo/";
+// import Seo from "@/utils/Seo/";
 
 export default function App() {
   return (
     <>
-      <Seo />
+      {/* <Seo /> */}
       <Navbar />
       <Hero />
       <About />

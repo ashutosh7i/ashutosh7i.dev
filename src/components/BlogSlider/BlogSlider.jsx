@@ -47,8 +47,15 @@ export default function BlogCardCarousel({ color }) {
     scrollBehavior: "smooth",
   };
 
+  const touchTargetStyle = {
+    minWidth: "48px",
+    minHeight: "48px",
+    padding: "12px",
+    margin: "8px",
+  };
+
   return (
-    <Container w="100%" maxW={"3xl"} id="about">
+    <Container w="100%" maxW={"4xl"} id="about">
       <Seo />
       <Stack
         as={Box}
@@ -69,13 +76,18 @@ export default function BlogCardCarousel({ color }) {
               >
                 {blogs.map((blog, index) => (
                   <Box
+                    as="a"
+                    href={blog.link}
+                    aria-label=" Blog"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     key={index}
                     p="4"
                     borderWidth="1px"
                     borderRadius="lg"
                     overflow="hidden"
                     position="relative"
-                    style={cardStyle}
+                    style={{ ...cardStyle, ...touchTargetStyle }}
                   >
                     {currentIndex === index && (
                       <Box
@@ -94,18 +106,14 @@ export default function BlogCardCarousel({ color }) {
                     {blog.coverImage && (
                       <Image
                         src={blog.coverImage}
-                        alt={blog.title}
+                        alt="blog cover image"
                         height="840"
                         width="1600"
                       />
                     )}
-                    <a
-                      href={blog.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <Text style={titleStyle}>{blog.title}</Text>
-                    </a>
+                    <Text style={{ ...titleStyle, ...touchTargetStyle }}>
+                      {blog.title}
+                    </Text>
                   </Box>
                 ))}
               </Grid>

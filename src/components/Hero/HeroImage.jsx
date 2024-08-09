@@ -41,7 +41,7 @@ const D = () => {
           <div className="af">{e !== -1 ? g[e] : null}</div>
         </div>
         <div className="ag">
-          <Image src={b} alt="" />
+          <Image src={b} alt="image of ashutosh7i" />
         </div>
       </figure>
     </section>

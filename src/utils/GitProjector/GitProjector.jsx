@@ -120,6 +120,7 @@ function GitProjector() {
               </Stack>
               <Stack mt={6} direction={"row"} spacing={4}>
                 <Button
+                  aria-label=" github"
                   flex={1}
                   fontSize={"sm"}
                   rounded={"full"}
@@ -130,6 +131,7 @@ function GitProjector() {
                   Github
                 </Button>
                 <Button
+                  aria-label=" source"
                   flex={1}
                   fontSize={"sm"}
                   rounded={"full"}

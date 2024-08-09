@@ -127,6 +127,7 @@ export default function BlogCardCarousel({ color }) {
                     {/* Make the title clickable */}
                     <a
                       href={blog.link}
+                      aria-label=" Blog"
                       target="_blank"
                       rel="noopener noreferrer"
                     >

@@ -32,7 +32,7 @@ export default function Footer() {
           <Text padding={"2px"}>Made with 💖,☕&🥤by Ashutosh7i</Text>
 
           <Stack align={"flex-end"}>
-            <Stack direction={" row"}>
+            {/* <Stack direction={" row"}>
               <Input
                 placeholder={"Get Updates"}
                 bg={useColorModeValue("blackA1pha.100 ", "whiteA1pha.100 ")}
@@ -50,7 +50,7 @@ export default function Footer() {
                 aria-label=" Subscribe "
                 icon={"s"}
               />
-            </Stack>
+            </Stack> */}
           </Stack>
 
           <Box>
@@ -58,25 +58,25 @@ export default function Footer() {
               src={
                 "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/6d8594ba-4f54-4f6c-bfab-468b927b3b78.svg"
               }
-              alt=""
+              alt="badge"
             ></Image>
             <Image
               src={
                 "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/23100cfd-def9-4254-a488-fd50a66e5734.svg"
               }
-              alt=""
+              alt="badge"
             ></Image>
             <Image
               src={
                 "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/a0725d5b-0d43-4ad9-8709-4e689e5ea9c5.svg"
               }
-              alt=""
+              alt="badge"
             ></Image>
             <Image
               src={
                 "https://wakatime.com/badge/user/62850a07-caf8-470f-86a7-660093b4f5b4/project/018e65ba-8390-4f2f-b504-014368cd620e.svg"
               }
-              alt=""
+              alt="badge"
             ></Image>
           </Box>
         </Container>

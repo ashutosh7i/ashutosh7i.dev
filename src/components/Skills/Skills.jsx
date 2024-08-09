@@ -157,6 +157,7 @@ const Skills = () => {
           }
           description={item.description}
           href={"#"}
+          aria-label=" TechCard"
         />
       ))}
       {showMore ? (
@@ -173,10 +174,12 @@ const Skills = () => {
             }
             description={item.description}
             href={"#"}
+            aria-label=" TechCard"
           />
         ))
       ) : (
         <Button
+          aria-label=" Show More Button"
           onClick={onToggle}
           variant={"outline"}
           colorScheme={"blue"}
@@ -257,6 +260,7 @@ export default function TechStackComponent({ color }) {
             <Wrap spacing={2}>
               <WrapItem>
                 <Button
+                  aria-label=" All Button"
                   colorScheme={selected === "All" ? `blue` : "gray"}
                   backgroundColor={
                     selected === "All" ? "rgb(20, 147, 233)" : ""
@@ -270,6 +274,7 @@ export default function TechStackComponent({ color }) {
               {options.map((option) => (
                 <WrapItem key={option.value}>
                   <Button
+                    aria-label=" TechStack Button"
                     colorScheme={selected === option.value ? "cyan" : "gray"}
                     onClick={() => handleSelected(option.value)}
                   >

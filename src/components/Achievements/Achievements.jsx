@@ -132,6 +132,7 @@ export default function Achievements() {
               {uniqueTypes.map((type, index) => (
                 <WrapItem key={index}>
                   <Button
+                  aria-label=" achievements type"
                     colorScheme={selected === type ? `${color}` : "gray"}
                     onClick={() => handleSelected(type)}
                   >

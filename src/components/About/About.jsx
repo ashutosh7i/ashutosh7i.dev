@@ -102,7 +102,6 @@ export default function About() {
                         width={"auto"}
                         src={ProfessionalPhoto}
                         alt={`Picture of test`}
-                        roundedTop="100%"
                       />
 
                       <Box p="2">
@@ -122,7 +121,11 @@ export default function About() {
                             </Text>
                           </Box>
 
-                          <chakra.a href={"#"} display={"flex"}>
+                          <chakra.a
+                            aria-label="More about PBD 2023"
+                            href={"#"}
+                            display={"flex"}
+                          >
                             <Icon
                               color={useColorModeValue("gray.800", "white")}
                               ml={"5px"}
@@ -165,7 +168,6 @@ export default function About() {
                         width={"auto"}
                         src={CasualPhoto}
                         alt={`Picture of test`}
-                        roundedTop="lg"
                       />
 
                       <Box p="2">
@@ -185,7 +187,11 @@ export default function About() {
                             </Text>
                           </Box>
 
-                          <chakra.a href={"#"} display={"flex"}>
+                          <chakra.a
+                            aria-label=" More about WittyHacks 3.0"
+                            href={"#"}
+                            display={"flex"}
+                          >
                             <Icon
                               color={useColorModeValue("gray.800", "white")}
                               ml={"5px"}
@@ -225,6 +231,7 @@ export default function About() {
               <button
                 className="MoreAboutButton"
                 onClick={scrollToSkills}
+                aria-label="More About Me"
               ></button>
             </Box>
           </VStack>
@@ -270,7 +277,7 @@ export default function About() {
             <br />
             <br />
             📔 Currently, I'm doing DSA+Development while aiming for{" "}
-            <a href="/resume">
+            <a aria-label="link to resume" href="/resume">
               <i>
                 <u>an internship</u>
               </i>
@@ -298,6 +305,7 @@ export default function About() {
             mt={{ base: "5%", md: "-5%", lg: "1%" }}
           >
             <button
+              aria-label="More About Me"
               className="MoreAboutButton"
               // onClick={() => {
               //   setTimeout(() => {

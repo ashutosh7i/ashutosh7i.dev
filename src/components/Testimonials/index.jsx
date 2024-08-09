@@ -12,6 +12,7 @@ import {
   Avatar,
   Input,
   Button,
+  Image,
   useColorModeValue,
 } from "@chakra-ui/react";
 import Seo from "../../utils/Seo";
@@ -102,7 +103,13 @@ function TestimonialAvatar(props) {
           }
         }}
       >
-        <Avatar borderColor={"rgb(238, 118, 116)"} size={"lg"} src={src} />
+        <Image
+          borderColor={"rgb(238, 118, 116)"}
+          maxWidth={"70px"}
+          src={src}
+          alt="image of a person"
+          rounded={"full"}
+        />
       </Box>
       <Stack spacing={-1} align={"center"}>
         <Text
@@ -190,7 +197,7 @@ const TestimonialComponent = () => {
     if (typeof window !== "undefined") {
       window.location.href = mailtoLink;
     }
-    
+
     alert(
       "Thank you for your Testimonial✅, it will be added on next Build.😄"
     );
@@ -256,7 +263,11 @@ const TestimonialComponent = () => {
               value={inputTitle}
               onChange={(e) => setInputTitle(e.target.value)}
             />
-            <Button colorScheme="teal" onClick={handleSubmit}>
+            <Button
+              aria-label=" submit button"
+              colorScheme="teal"
+              onClick={handleSubmit}
+            >
               Submit
             </Button>
           </Stack>

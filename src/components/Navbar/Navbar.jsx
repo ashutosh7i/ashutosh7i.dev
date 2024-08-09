@@ -89,7 +89,7 @@ export default function Nav() {
         justifyContent={"space-between"}
         w="100%"
       >
-        <Link onClick={scrollToHero}>
+        <Link aria-label="" href="" onClick={scrollToHero}>
           <HStack>
             <Box fontWeight={700}>
               <Text fontSize="lg" display="inline">
@@ -107,18 +107,31 @@ export default function Nav() {
             {isLargerThanMD ? (
               <>
                 <Button
+                  aria-label=" home"
                   variant="ghost"
                   onClick={() => (window.location.href = "/")}
                 >
                   Home
                 </Button>
-                <Button variant="ghost" onClick={scrollToAbout}>
+                <Button
+                  aria-label=" about"
+                  variant="ghost"
+                  onClick={scrollToAbout}
+                >
                   About
                 </Button>
-                <Button variant="ghost" onClick={scrollToExperience}>
+                <Button
+                  aria-label=" work"
+                  variant="ghost"
+                  onClick={scrollToExperience}
+                >
                   Work
                 </Button>
-                <Button variant="ghost" onClick={scrollToContact}>
+                <Button
+                  aria-label=" contact"
+                  variant="ghost"
+                  onClick={scrollToContact}
+                >
                   Contact
                 </Button>
               </>
@@ -136,6 +149,8 @@ export default function Nav() {
                   <div className="theme-switch__clouds"></div>
                   <div className="theme-switch__stars-container">
                     <svg
+                      height=""
+                      width=""
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 144 55"
                       fill="none"
@@ -170,6 +185,7 @@ export default function Nav() {
             ) : (
               <>
                 <Button
+                  aria-label=" hamburger button"
                   as={IconButton}
                   icon={<HamburgerIcon />}
                   onClick={onOpen}
@@ -178,16 +194,32 @@ export default function Nav() {
                   <DrawerOverlay />
                   <DrawerContent>
                     <DrawerBody>
-                      <Button variant="ghost" onClick={scrollToHero}>
+                      <Button
+                        aria-label="Home"
+                        variant="ghost"
+                        onClick={scrollToHero}
+                      >
                         Home
                       </Button>
-                      <Button variant="ghost" onClick={scrollToAbout}>
+                      <Button
+                        aria-label="About"
+                        variant="ghost"
+                        onClick={scrollToAbout}
+                      >
                         About
                       </Button>
-                      <Button variant="ghost" onClick={scrollToExperience}>
+                      <Button
+                        aria-label="Work"
+                        variant="ghost"
+                        onClick={scrollToExperience}
+                      >
                         Work
                       </Button>
-                      <Button variant="ghost" onClick={scrollToContact}>
+                      <Button
+                        aria-label="Contact"
+                        variant="ghost"
+                        onClick={scrollToContact}
+                      >
                         Contact
                       </Button>
                     </DrawerBody>

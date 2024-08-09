@@ -105,7 +105,11 @@ export default function Projects() {
                   }}
                   overflow="hidden"
                 >
-                  <Image objectFit="cover" src={project.image} alt="" />
+                  <Image
+                    objectFit="cover"
+                    src={project.image}
+                    alt="image of project"
+                  />
 
                   <Stack>
                     <CardBody align="left">
@@ -115,8 +119,13 @@ export default function Projects() {
 
                       <HStack py={2}>
                         {project.buttons.map((button) => (
-                          <a key={button.name} href={button.url}>
-                            <Button color={`teal.400`}>{button.name}</Button>
+                          <a key={button.name} aria-label="button" href={button.url}>
+                            <Button
+                              aria-label="Button for actions"
+                              color={`teal.400`}
+                            >
+                              {button.name}
+                            </Button>
                           </a>
                         ))}
                       </HStack>
@@ -141,6 +150,7 @@ export default function Projects() {
             More Projects
             <br />
             <Button
+              aria-label=" Button for more projects"
               colorScheme={`teal`}
               onClick={() => {
                 if (typeof window !== "undefined") {

@@ -130,9 +130,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <body className={inter.className}>
-      <GoogleAnalytics gaId="G-33TTH9S3WB" />
+        <GoogleAnalytics gaId="G-33TTH9S3WB" />
         <Providers>{children}</Providers>
         <script
           type="application/ld+json"
@@ -147,23 +147,22 @@ export default function RootLayout({
               headline: "Ashutosh7i.dev | Aashutosh Soni",
               description:
                 "Portfolio of Aashutosh Soni, a developer from Indore, India.",
-              image:
-                "https://ashutosh7i.dev/og.png",
+              image: "https://ashutosh7i.dev/og.png",
               author: {
                 "@type": "Person",
                 name: "Aashutosh Soni",
-                url: "https://www.linkedin.com/in/ashutosh7i"
+                url: "https://www.linkedin.com/in/ashutosh7i",
               },
               publisher: {
                 "@type": "Person",
                 name: "Aashutosh Soni",
                 logo: {
                   "@type": "ImageObject",
-                  url: "https://ashutosh7i.dev/favicon.ico"
-                }
+                  url: "https://ashutosh7i.dev/favicon.ico",
+                },
               },
               inLanguage: "en-US",
-              isFamilyFriendly: "true"
+              isFamilyFriendly: "true",
             }),
           }}
         />

@@ -159,20 +159,18 @@
   {
     "type": "Hackathons👨‍💻",
     "title": "Kriyeta 2.0",
-    "role": "Top-5 Teams",
+    "role": "<college>",
     "date": {
       "from": "9",
       "to": "11 Feb'24"
     },
     "logo": "https://ashutosh7i.dev/logos/kriyeta.png",
+    "image": "images/kriyeta.jpg",
     "badges": [
       { "content": "Hackathon", "color": "yellow" },
       { "content": "MERN", "color": "purple" }
     ],
-    "points": [
-      "Nepotistic Hackathon tbt, happens anyways ;) ",
-      "Made a Full Stack Educational Institute Management System."
-    ]
+    "points": ["Made a Full Stack Educational Institute Management System."]
   },
   {
     "type": "Hackathons👨‍💻",
@@ -183,7 +181,7 @@
       "to": "17 March'24"
     },
     "logo": "https://ashutosh7i.dev/logos/hackhive.png",
-    "image": "https://ashutosh7i.dev/images/hackhive.jpg",
+    "image": "images/hackhive.jpg",
     "link": "https://twitter.com/divyagoyalbg/status/1769579495508611557/photo/1",
     "badges": [
       { "content": "Hackathon", "color": "yellow" },

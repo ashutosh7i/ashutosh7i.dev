@@ -120,7 +120,7 @@ const Hero = () => {
                   💡Have an Idea?
                 </Text>
               </HStack>
-              <Link
+              <Box
                 // as={RouterLink} // Use RouterLink from react-router-dom
                 // to="/work" // Specify the target route
                 onClick={(e) => scrollToContact(e)}
@@ -131,8 +131,14 @@ const Hero = () => {
                 color="white"
                 bgGradient="linear(to-l, #0ea5e9,#2563eb)"
               >
-                <Text fontSize={"17px"}>{"Let's Chat☕"}</Text>
-              </Link>
+                <Text
+                  //underlineon lets chat on hover
+                  _hover={{ textDecoration: "underline" }}
+                  fontSize={"17px"}
+                >
+                  {"Let's Chat☕"}
+                </Text>
+              </Box>
             </HStack>
 
             <chakra.h1
@@ -204,6 +210,7 @@ const Hero = () => {
               // to="/about"
               >
                 <button
+                  aria-label=" explore button"
                   // as={RouterLink} // Use RouterLink instead of Link
                   // to="/about" // Specify the target route
                   onMouseEnter={() => setIsHovered(true)}
@@ -219,6 +226,7 @@ const Hero = () => {
                     className="svgIcon"
                     viewBox="0 0 512 512"
                     height="1em"
+                    width="1em"
                     fill={colorTransition()}
                     xmlns="http://www.w3.org/2000/svg"
                   >
@@ -252,6 +260,7 @@ const Hero = () => {
                   zIndex={1}
                   as="a"
                   href="/resume"
+                  aria-label=" resume"
                 >
                   Resume📜
                 </Box>
@@ -272,6 +281,7 @@ const Hero = () => {
                   zIndex={1}
                   as="a"
                   href="https://drive.google.com/file/d/1bP-DjYFrhuniDKDaiCw4dxdv5PaFYgjt/view"
+                  aria-label=" resume"
                 >
                   <Star />
                 </Box>

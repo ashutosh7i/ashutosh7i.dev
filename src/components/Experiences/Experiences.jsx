@@ -145,6 +145,7 @@ export default function Experiences() {
           pt={"40px"}
         >
           <Link
+          aria-label=" wakatime stats"
             href="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg"
             isExternal
           >
@@ -155,7 +156,7 @@ export default function Experiences() {
               src="https://wakatime.com/share/@Ashutosh7i/986094a5-c816-4b5a-8464-a384538297e3.svg"
               border="1px"
               borderColor={borderColor}
-              alt=""
+              alt="wakatime stats"
             />
           </Link>
 
@@ -166,10 +167,11 @@ export default function Experiences() {
             src={"/images/work.png"}
             border="2px"
             borderColor={borderColor}
-            alt=""
+            alt="wakatime stats"
           />
 
           <Link
+          aria-label=" wakatime stats"
             href="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg"
             isExternal
           >
@@ -180,7 +182,7 @@ export default function Experiences() {
               src="https://wakatime.com/share/@Ashutosh7i/00b65af3-2404-48ae-9d0e-da21decb7e25.svg"
               border="1px"
               borderColor={borderColor}
-              alt=""
+              alt="wakatime stats"
             />
           </Link>
         </Stack>
@@ -212,7 +214,7 @@ export default function Experiences() {
               </i>{" "}
               Feel free to reach out to me at{" "}
               <u>
-                <a href="mailto:work@ashutosh7i.dev">work@ashutosh7i.dev</a>
+                <a aria-label="mail address" href="mailto:work@ashutosh7i.dev">work@ashutosh7i.dev</a>
               </u>
               .
             </Text>
@@ -265,10 +267,10 @@ export default function Experiences() {
                   </ModalBody>
 
                   <ModalFooter>
-                    <Button colorScheme="red" mr={3} onClick={onClose}>
+                    <Button aria-label="close button" colorScheme="red" mr={3} onClick={onClose}>
                       Close
                     </Button>
-                    <Button colorScheme={`teal`} onClick={sendEmail}>
+                    <Button aria-label="send button" colorScheme={`teal`} onClick={sendEmail}>
                       Send
                     </Button>
                   </ModalFooter>

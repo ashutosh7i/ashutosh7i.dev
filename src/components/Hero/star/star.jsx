@@ -3,10 +3,11 @@ import './star.css'; // Make sure to adjust the path to your CSS file
 
 export default function StarButton() {
   return (
-    <button className="starButton">
+    <button aria-label="button to open resume" className="starButton">
       Resume 📄
       <div className="star-1">
         <svg
+        height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -32,6 +33,7 @@ export default function StarButton() {
       </div>
       <div className="star-1">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -57,6 +59,7 @@ export default function StarButton() {
       </div>
       <div className="star-2">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -82,6 +85,7 @@ export default function StarButton() {
       </div>
       <div className="star-3">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -107,6 +111,7 @@ export default function StarButton() {
       </div>
       <div className="star-4">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -132,6 +137,7 @@ export default function StarButton() {
       </div>
       <div className="star-5">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
@@ -157,6 +163,7 @@ export default function StarButton() {
       </div>
       <div className="star-6">
         <svg
+         height="" width=""
           xmlnsXlink="http://www.w3.org/1999/xlink"
           viewBox="0 0 784.11 815.53"
           style={{
